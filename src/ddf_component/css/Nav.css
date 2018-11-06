@@ -1,0 +1,356 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset,{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;}
+/* 导航--头部 */
+.nav_wrap{
+    width: 100%;
+    height: 80px;
+}
+.nav_wrap .nav{
+    width: 1222px;
+    height: 80px;
+    margin: 0 auto;
+    z-index: 99999; 
+}
+/* logo */
+.nav_wrap .nav .logo{
+    float: left;
+    width: 133px;
+    height: 80px;
+    background: url(../img/logo.png) no-repeat 0;
+}
+/* 城市定位 */
+.nav_wrap .nav .dingwei{
+    width: 70px;
+    height: 80px;
+    float: left;
+    padding-top: 32px;
+    padding-left: 10px;
+    margin-left: 8px;
+    color: #333;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom:1px solid #fff;
+    position: relative;
+    z-index: 999;
+}
+.nav_wrap .nav .dingwei span{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 6px;
+    border-top:5px solid #666;
+    border-right: 5px solid #fff;
+    border-left: 5px solid #fff;
+    transition: all .2s ease;
+}
+.nav_wrap .nav .dingwei:hover{
+    border-left:1px solid #dcd4d7;
+    border-right:1px solid #dcd4d7;
+}
+.nav_wrap .nav .dingwei:hover span{
+    transform:rotate(180deg);  
+}
+.nav_wrap .nav .dingwei:hover .city{
+    display: block;
+}
+
+                /* 所有城市 */
+.nav_wrap .nav .dingwei .city{
+    display: none;
+    position: absolute;
+    top: 79px;
+    left: -1px;
+    width: 480px;
+    height: 322px;
+    border: 1px solid #dcd4d7;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #fff;
+}
+.nav_wrap .nav .dingwei .city p{
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    line-height: 58px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+.nav_wrap .nav .dingwei .city p i{
+    font-style: normal;
+}
+.nav_wrap .nav .dingwei .city li strong{
+    font-weight: 500;
+    margin-left: 20px;
+    width: 20px;
+    text-align: center;
+    float: left;
+    vertical-align: top;
+    display: block;
+    background-color: #eee;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.nav_wrap .nav .dingwei .city li div{
+    margin-left: 40px;
+    display: block;
+    margin-bottom: 10px;
+}  
+.nav_wrap .nav .dingwei .city li div div{
+    display: inline-block;
+    line-height: 24px;
+    margin-top: 3px;
+    padding: 0 5px;
+    text-align: center;
+    margin-left: 0;
+    cursor: pointer;
+}
+.nav_wrap .nav .dingwei .city li div div:hover{
+    background-color: #ef4238;
+    color: #fff;
+}
+/* 导航栏 */
+.nav_wrap .nav nav{
+    float: left;
+    margin-left: 60px;
+}
+.nav_wrap .nav nav ul li{
+    float: left;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav_wrap .nav nav ul .nav_hover:hover{
+    color: #ef4238;
+}
+.nav_wrap .nav nav ul .active{
+    background: #ef4238!important;
+    color: #fff!important;
+}
+/* APP下载 */
+.nav_wrap .nav .saoma{
+    background: #fff;
+    box-sizing: border-box;
+    margin-left: 30px;
+    cursor: pointer;
+    float: left;
+    width: 130px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+}
+.nav_wrap .nav .saoma .phone{
+    display: inline-block;
+    width: 15px;
+    height: 24px;
+    background: url(../img/phone.png) no-repeat;
+    position: absolute;
+    top: 28px;
+    left: 14px;
+}
+.nav_wrap .nav .saoma .sanjiao{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 12px;
+    border-top:5px solid #666;
+    border-right: 5px solid #fff;
+    border-left: 5px solid #fff;
+    transition: all .2s ease;
+    position: absolute;
+    top: 40px;
+}
+.nav_wrap .nav .saoma .sm_app{
+    display: none;
+    background: #fff;
+    z-index: 999;
+    box-sizing: border-box;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    border-bottom:1px solid #fff;
+    position: absolute;
+    top: 80px;
+    left: -1px;
+    width: 130px;
+    height: 165px;
+    font-size: 14px;
+    background-image: url(../img/app.png);
+    background-position: 24px 14px;
+    background-size: 82px 82px;
+    background-repeat: no-repeat;
+}
+.nav_wrap .nav .saoma .sm_app p:nth-child(1){
+    margin-top: 115px;
+    margin-bottom: 3px;
+    color: #000;
+    line-height: 20px;
+}
+.nav_wrap .nav .saoma .sm_app p:nth-child(2){
+    margin-bottom: 3px;
+    color: #000;
+    line-height: 20px;
+}
+.nav_wrap .nav .saoma:hover .sanjiao{
+    transform:rotate(180deg); 
+}
+.nav_wrap .nav .saoma:hover{
+    border-left:1px solid #dcd4d7;
+    border-right:1px solid #dcd4d7;
+}
+.nav_wrap .nav .saoma:hover .sm_app{
+    display: block;
+    border-left:1px solid #dcd4d7;
+    border-right:1px solid #dcd4d7;
+    border-bottom:1px solid #dcd4d7;
+}
+/* 搜索 */
+.nav_wrap .nav .search{
+    float: left;
+    margin: 20px 10px 0 10px;
+    position: relative;
+}
+.nav_wrap .nav .search input:nth-child(1){
+    display: inline-block;
+    height: 40px;
+    line-height: 1.2;
+    width: 260px;
+    padding: 0 40px 0 20px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #faf8fa;
+    overflow: hidden;
+    color: #333;
+    box-sizing: border-box;
+}
+.nav_wrap .nav .search input:nth-child(2){
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    left: 220px;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #ef4238;
+    border-radius: 30px;
+    background-image: url(../img/search.png);
+    cursor: pointer;
+    list-style: none;
+    border: none;
+}
+/* 登陆 */
+.nav_wrap .nav .login{
+    box-sizing: border-box;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    float:left;
+    position: relative;
+    z-index: 9999;
+    height: 100%;
+}
+.nav_wrap .nav .login .touxiang{
+    display: block;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: none;
+    padding: 0 10px;
+    width: 56px;
+    height: 100%;
+}
+.nav_wrap .nav .login .touxiang img{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav_wrap .nav .login .touxiang span{
+    position: absolute;
+    top: 39px;
+    right: 10px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 5px solid #666;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.nav_wrap .nav .login .login_hide{
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 80px;
+    border: 1px solid #d8d8d8;
+    border-top:0;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+    width: 78px;
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+    padding-bottom: 5px;
+}
+.nav_wrap .nav .login:hover .login_hide{
+    display: block;
+}
+.nav_wrap .nav .login:hover{
+    border-left:1px solid #dcd4d7;
+    border-right:1px solid #dcd4d7;
+}
+.nav_wrap .nav .login:hover span{
+    transform:rotate(180deg);
+}
+/* footer */
+footer{
+    background-color: #262426;
+    padding: 56px 0;
+    margin: 0 auto;
+    min-width: 1200px;
+    margin-top: 82px;
+    color: #666;
+}
+footer p:nth-child(1){
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+footer p:nth-child(2){
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+footer p:nth-child(3){
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
