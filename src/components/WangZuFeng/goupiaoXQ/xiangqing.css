@@ -1,0 +1,166 @@
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    background: #392f59 url(http://ms0.meituan.net/mywww/banner_bg.f7fd103e3b8c16b6f449cce43fc57f45.png) no-repeat 50%;
+}
+
+.banner .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    height: 376px;
+    position: relative;
+}
+.cinema-banner .wrapper {
+    height: 320px;
+    position: relative;
+    top: 70px;
+}
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: table;
+}
+.banner .wrapper .cinema-left {
+    width: 360px;
+    float: left;
+    overflow: hidden;
+    z-index: 9;
+}
+.banner .wrapper .cinema-main {
+    position: relative;
+    float: left;
+    max-width: 600px;
+}
+.clearfix:after {
+    clear: both;
+}
+.cinema-left .avatar-shadow {
+    width: 300px;
+    height: 300px;
+    background-size: 300px 50px;
+    position: relative;
+}
+.celeInfo-left .avatar-shadow, .cinema-left .avatar-shadow {
+    position: relative;
+    margin: 0 30px;
+    width: 240px;
+    height: 330px;
+    padding-bottom: 40px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAAAyAgMAAAAfG76+AAAADFBMV…7VPEI076YAUGbzfwrAqOYRormcAjCANodSAEY1j2oexJoBlx1+yE7RXIIAAAAASUVORK5CYII=) no-repeat bottom;
+}
+.banner .wrapper .cinema-brief-container {
+    color: #fff;
+}
+.cinema-left .avatar-shadow .avatar {
+    border: 4px solid #fff;
+    height: 292px;
+    width: 292px;
+}
+.banner .wrapper .cinema-brief-container {
+    color: #fff;
+}
+.banner .wrapper .cinema-brief-container .name {
+    margin: 0;
+    font-size: 26px;
+    margin-bottom: 9px;
+    font-weight: 400;
+    color: #fff;
+}
+.text-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.banner .wrapper .cinema-brief-container .address, .banner .wrapper .cinema-brief-container .telphone {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.banner .wrapper .cinema-brief-container .telphone {
+    margin-bottom: 20px;
+}
+.banner .wrapper .cinema-brief-container .address, .banner .wrapper .cinema-brief-container .telphone {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.banner .wrapper .cinema-brief-container .features-group {
+    position: relative;
+}
+.banner .wrapper .cinema-brief-container .features-group .group-title {
+    font-size: 14px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    width: 410px;
+}
+.banner .wrapper .cinema-brief-container .features-group .feature {
+    font-size: 12px;
+    margin-bottom: 2px;
+    position: relative;
+    min-height: 22px;
+    line-height: 23px;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-transform: scale(.8);
+    -ms-transform: scale(.8);
+    transform: scale(.8);
+}
+.banner .wrapper .cinema-brief-container .features-group .group-title:after {
+    border-top: 1px solid hsla(0,0%,100%,.7);
+    display: block;
+    content: "";
+    position: relative;
+    top: -10px;
+    left: 70px;
+}
+.banner .wrapper .cinema-brief-container .features-group .feature .tag {
+    display: inline-block;
+    border: 1px solid hsla(0,0%,100%,.6);
+    border-radius: 2px;
+    min-width: 60px;
+    height: 22px;
+    line-height: 23px;
+    text-align: center;
+}
+.banner .wrapper .cinema-brief-container .features-group .feature .desc {
+    display: inline-block;
+    max-width: 438px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.banner li, .banner p, .banner ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1;
+}
+.banner .wrapper .cinema-brief-container .features-group .feature .desc {
+    display: inline-block;
+    max-width: 438px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.ditu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+}
+.wzf_lunbo{
+    width: 1200px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 120px;
+    
+}
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 280px;
+    line-height: 280px;
+    background: #ededed;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }

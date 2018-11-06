@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "mockjs": "^1.0.1-beta3",
     "react": "^16.6.0",
+    "react-amap": "^1.2.7",
     "react-dom": "^16.6.0",
     "react-scripts": "2.1.1",
     "swiper": "^4.4.2"
@@ -28,6 +29,7 @@
   "devDependencies": {
     "antd": "^3.10.3",
     "jquery": "^3.3.1",
+    "mockjs": "^1.0.1-beta3",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1"
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 //import {BrowserRouter as Router,Route,Link,Redirect,Switch,NavLink} from 'react-router-dom';
 import $ from 'jquery'
+import Wzf_yingyuan from '../components/WangZuFeng/goupiao/wzf_g_list'
 
 class Yingyuan extends React.Component{
     constructor(props){
@@ -104,6 +105,7 @@ class Yingyuan extends React.Component{
                         
                     </div>
                 </div>
+                <Wzf_yingyuan/>
             </div>
         )
     }

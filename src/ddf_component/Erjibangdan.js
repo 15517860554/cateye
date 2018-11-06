@@ -1,6 +1,7 @@
 import React from 'react';
 //import {BrowserRouter as Router,Route,Link,Redirect,Switch,NavLink} from 'react-router-dom';
 import $ from 'jquery'
+import Wzf_bangdan from '../components/WangZuFeng/bangdan/wzf_b_list'
 
 class Erjibangdan extends React.Component{
     constructor(props){
@@ -55,7 +56,9 @@ class Erjibangdan extends React.Component{
                         <li onClick={this.tap4.bind(this)}>北美票房榜<span></span></li>
                         <li onClick={this.tap5.bind(this)}>TOP100榜<span></span></li>
                     </ul>
+
                 </div>
+                <Wzf_bangdan/>
             </div>
         )
     }
