@@ -418,3 +418,6 @@ li{
 .slick-dots li{
 	float: none;
 }
+.wx_con{
+	min-height: 2500px;
+}

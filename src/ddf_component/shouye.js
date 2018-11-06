@@ -1,4 +1,5 @@
 import React from 'react';
+import Wxindex from '../wxcomponents/wxindex'
 
 class Shouyue extends React.Component{
     constructor(props){
@@ -10,7 +11,7 @@ class Shouyue extends React.Component{
     render(){
         return(
             <div>
-                <h1>首页</h1>
+               <Wxindex />
             </div>
         )
     }
