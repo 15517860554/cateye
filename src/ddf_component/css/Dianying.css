@@ -1,5 +1,6 @@
 /* 二级导航 */
 .erji_nav{
+    margin-top: 80px;
     background-color: #47464a;
     height: 60px;
     width: 100%;
@@ -56,6 +57,9 @@
     padding: 0 20px;
     margin-top: 40px;
 }
+.fenlei_wrap .fenlei .fenlei_bian .fenlei_xq{
+    float: left;
+}
 .fenlei_wrap .fenlei .fenlei_bian .fenlei_xq span{
     display: block;
     height: 44px;
@@ -66,15 +70,14 @@
     padding-top: 10px;
 }
 .fenlei_wrap .fenlei .fenlei_bian .fenlei_xq ul{
-    border-bottom: 1px dashed #e5e5e5;
-    padding: 10px 0;
+    /* border-bottom: 1px dashed #e5e5e5; */
+    margin: 10px 0;
 }
 .fenlei_wrap .fenlei .fenlei_bian .fenlei_xq ul li{
     /* background: #f34d41; */
     /* color: #fff; */
     border-radius: 14px;
     padding: 3px 9px;
-    display: inline-block;
     margin-left: 12px;
     border-radius: 14px;
     padding: 3px 9px;

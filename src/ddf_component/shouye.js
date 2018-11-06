@@ -1,6 +1,5 @@
 import React from 'react';
 import Wxindex from '../wxcomponents/wxindex'
-
 class Shouyue extends React.Component{
     constructor(props){
         super(props)

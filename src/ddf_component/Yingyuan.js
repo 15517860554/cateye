@@ -1,6 +1,7 @@
 import React from 'react';
 //import {BrowserRouter as Router,Route,Link,Redirect,Switch,NavLink} from 'react-router-dom';
 import $ from 'jquery'
+import './css/yingyuan.css'
 import Wzf_yingyuan from '../components/WangZuFeng/goupiao/wzf_g_list'
 
 class Yingyuan extends React.Component{
@@ -45,7 +46,7 @@ class Yingyuan extends React.Component{
         return(
             <div>
                 {/* 类型分类 */}
-                <div className="fenlei_wrap">
+                <div className="ddf_fenlei_wrap">
                     <div className="fenlei">
                         <div className="fenlei_bian">
                             <div className="fenlei_xq">
