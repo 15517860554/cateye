@@ -41,7 +41,7 @@
 	
 }
 .wx_now_hot_li ul{
-	margin-left: -64px;
+	margin-left: -24px;
 }
 .wx_now_hot_li li{
 	position: relative;
@@ -55,7 +55,7 @@
 .wx_now_hot_li .wx_now_hot_li_zz{
 	position: absolute;
 	left: 0;
-	bottom:40px;
+	bottom:38px;
 }
 .wx_content{
 	width: 1200px;
@@ -115,7 +115,7 @@ li{
 	color: #999;
 }
 .wx_want_movie_gp span{
-	
+	text-align: center;
 	display: inline-block;
 	width: 79px;
 	height: 43px;
@@ -138,6 +138,7 @@ li{
 .wx_movie_rt{
 	margin: 0;
 	color:#999;
+	text-align: center;
 	font-size: 14px;
 	line-height: 40px;
 	
@@ -154,7 +155,7 @@ li{
 	font-size: 16px;
 	width: 355px;
 	text-align: left;
-	margin-left: -37px;
+	margin-left: 6px;
 	
 	margin-bottom: 15px;
 	white-space: nowrap;
@@ -167,7 +168,7 @@ li{
 	font-size: 16px;
 	width: 355px;
 	text-align: left;
-	margin-left: -37px;
+	margin-left: 5px;
 	height: 78px;
 	border:1px solid #efefef;
 }
@@ -277,7 +278,7 @@ li{
 	font-size: 16px;
 	width: 360px;
 	text-align: left;
-	margin-left: -37px;
+	margin-left: 5px;
 	height: 194px;
 	border:1px solid #efefef;
 }
@@ -307,7 +308,7 @@ li{
     font-size: 16px;
     width: 360px;
     text-align: left;
-    margin-left: -37px;
+    margin-left: 5px;
     margin-bottom: 15px;
     white-space: nowrap;
     overflow: hidden;
@@ -328,7 +329,7 @@ li{
 	height: 183px;
 	float: left;
 	margin-top: 20px;
-	margin-left: -37px;
+	margin-left: 5px;
 	border: 1px solid #e6e6e6;
 }
 .wx_expect_li li:nth-of-type(2) img{
@@ -396,6 +397,7 @@ li{
 	margin-top: 0px;
 	margin-left: 800px;
 	margin-bottom: 100px;
+	margin-right: -5px;
 }
 .wx_top_li_tit{
 	color: #ffb400;
@@ -413,8 +415,12 @@ li{
 }
 .ant-carousel .slick-slide h3 {
  height: 357px;
+	
 }
-
+.ant-carousel .slick-slide h3 img{
+ margin: 0 auto;
+	
+}
 .slick-dots li{
 	float: none;
 }
