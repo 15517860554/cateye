@@ -8,7 +8,7 @@ import Erjiredian from './Erjiredian';
 import Yingyuan from './Yingyuan';
 import Shouye from './shouye';
 import img from './img/login.png'
-
+import Wxshopcart from '../wxcomponents/wxShopcart'
 import Detail from './detail'
 class Nav extends React.Component{
     constructor(props){
@@ -161,6 +161,8 @@ class Nav extends React.Component{
                             <Route path="/Erjibangdan" component={Erjibangdan}></Route>
                             <Route path="/Erjiredian" component={Erjiredian}></Route>                            
                             <Route path="/detail" component={Detail}></Route>
+														<Route path='/wxshopcart' component={Wxshopcart}></Route>
+														
                             <Redirect to="Shouye"></Redirect>
 
                         </Switch>

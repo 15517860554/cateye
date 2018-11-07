@@ -245,7 +245,7 @@ export default class wxIndex extends React.Component {
 			</div>
 				
 			</div>
-			<NavLink to='/detail'><button onClick={this.ttt.bind(this)}>跳</button></NavLink>
+			
 		</div>	
 		)
 	}
