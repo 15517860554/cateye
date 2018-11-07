@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import {NavLink} from 'react-router-dom';
 import 'antd/dist/antd.css';
 import { Button,Carousel } from 'antd';
 import 'antd/lib/button/style';
@@ -77,6 +77,11 @@ export default class wxIndex extends React.Component {
 			top100_li:[]
 		}
 	}
+	ttt(){
+		console.log(222)
+		//this.props.history.push('/detail')
+	}
+		
 	
 	render() {
 		var li_con=[]
@@ -159,6 +164,7 @@ export default class wxIndex extends React.Component {
 			}
 		})
 		return ( 
+			
 		<div className='wx_con'>
 	<Carousel afterChange={onChange} effect="fade" autoplay='true' style={{height:"440px"}}>
 				<div><h3><img src={lb1}/></h3></div>
@@ -239,6 +245,7 @@ export default class wxIndex extends React.Component {
 			</div>
 				
 			</div>
+			<NavLink to='/detail'><button onClick={this.ttt.bind(this)}>跳</button></NavLink>
 		</div>	
 		)
 	}
