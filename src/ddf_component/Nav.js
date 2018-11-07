@@ -37,6 +37,9 @@ class Nav extends React.Component{
             $(".city").css("display","none")
         })
     }
+    tap(){
+        this.props.history.push("/login")
+    }
     render(){
         //console.log(this.state.pos,this.state.search)
         return(
@@ -142,7 +145,7 @@ class Nav extends React.Component{
                                         <span></span>
                                     </div>
                                     <div className="login_hide">
-                                        <p>登陆</p>
+                                        <p onClick={this.tap.bind(this)}>登陆</p>
                                     </div>
                             </div>
                         </div>
@@ -155,9 +158,10 @@ class Nav extends React.Component{
                             <Route path="/Yingyuan" component={Yingyuan}></Route>
                             <Route path="/Erjibangdan" component={Erjibangdan}></Route>
                             <Route path="/Erjiredian" component={Erjiredian}></Route>
-                            <Redirect to="Shouye"></Redirect>
+                            <Redirect to="Shouye" />
                         </Switch>
                     </div>
+                    
                 </Router>
                 <footer>
                     <p>
@@ -170,9 +174,10 @@ class Nav extends React.Component{
                     </p>
                     <p>
                         ©2016 猫眼电影 maoyan.com 京ICP证160733号 京ICP备16022489号-1 京公网安备 11010102003232号 网络文化经营许可证 电子公告服务规则
-                        <p>
+                        <br/>
+                        <span>
                             北京猫眼文化传媒有限公司
-                        </p>
+                        </span>
                     </p>
                 </footer>
             </div>

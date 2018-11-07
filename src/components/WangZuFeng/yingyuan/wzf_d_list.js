@@ -179,10 +179,10 @@ class Wzf_d_list extends Component {
       {jsx}
         </dl>
         </div>
-        <p className='page-bao'>
+        <div className='page-bao'>
         <Pagination className='page' onShowSizeChange={this.foo1} defaultPageSize={30} onChange={this.foo.bind(this)} defaultCurrent={this.state.moren} total={this.state.total} />
 
-        </p>
+        </div>
         
       </div>
     );

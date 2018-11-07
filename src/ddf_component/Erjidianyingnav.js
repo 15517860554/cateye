@@ -2,7 +2,7 @@ import React from 'react';
 //import {BrowserRouter as Router,Route,Link,Redirect,Switch,NavLink} from 'react-router-dom';
 import './css/Dianying.css'
 import $ from 'jquery';
-import Wzf_dianying from '../components/WangZuFeng/yingyuan/wzf_d_list'
+import WzfDianying from '../components/WangZuFeng/yingyuan/wzf_d_list'
 class Erjidianyingnav extends React.Component{
     constructor(props){
         super(props)
@@ -57,7 +57,7 @@ class Erjidianyingnav extends React.Component{
             _this.setState({niandai:val})
         })
     }
-    componentShouldUpdate(){
+    shouldComponentUpdate(){
         return true
     }
     render(){
@@ -154,7 +154,7 @@ class Erjidianyingnav extends React.Component{
                         
                     </div>
                 </div>
-                <Wzf_dianying/>
+                <WzfDianying/>
             </div>
         )
     }

@@ -38,7 +38,7 @@ class Yingyuan extends React.Component{
             _this.setState({teshuting:val})
         })
     }
-    componentShouldUpdate(){
+    shouldComponentUpdate(){
         return true
     }
     render(){

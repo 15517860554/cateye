@@ -1,0 +1,174 @@
+/* body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;} */
+			#head{
+				margin:0 auto;
+				padding:10px 0;
+				width: 980px;
+				height: 55px;
+			}
+			.logo{
+				display: block;
+				width: 133px;
+				height: 40px;
+				margin-top: -2px;
+				background: url(../img/logo.png) no-repeat top left;
+			}
+			.sysmsg{
+				width: 918px;
+				height: 50px;
+				display: none;
+				margin: 10px auto 0;
+				border: 1px solid #f5d8a7;
+				border-radius: 2px;
+				background: #fff6db;
+				font-size: 14px;
+				text-align: center;
+				color: #666;
+				zoom: 1;
+				position: relative;
+			}
+			.error{
+				background-position: 0 -86px;
+				background-image: url(../img/jinlintu.png);
+				background-repeat: no-repeat;
+				display: inline-block;
+				width: 17px;
+				height: 17px;
+				margin-right: 5px;
+				overflow: hidden;
+				vertical-align: -3px;
+			}
+			.sheet{
+				width: 1200px;
+				margin: 0 auto;
+			}
+			.content{
+				margin-bottom: 30px;
+				display: inline-block;
+				line-height: 50px;
+
+			}
+			.sl{
+				margin: 5px auto;
+				width: 100%;
+				height: 2px;
+				background: #E02025;
+			}
+			#content{
+				width: 100%;
+				min-height: 300px;
+				padding-top: 30px;
+			}
+			.telphone{
+				position: relative;
+				padding: 8px 0 8px 110px;
+			}
+			.tel,.pwd,.message,.confirm_pwd{
+				border: none;
+				border: 1px solid #aaa;
+				display: inline-block;
+				width: 258px;
+				height: 36px;
+				line-height: 36px;
+				padding: 5px;
+				vertical-align: top;
+			}
+			.sheet label{
+				display: inline-block;
+				margin-right: 10px;
+				width: 100px;
+				color: #333;
+				height: 21px;
+				padding-top: 6px;
+				text-align: right;
+				font-size: 14px;
+				
+			}
+			.tit{
+				width: 157px;
+				color: #E02025;
+				display: inline-block;
+				padding: 6px 0;
+				height: 24px;
+				line-height: 24px;
+				font-size: 12px;
+				vertical-align: top;
+				text-align: left;
+				text-indent: 10px;
+			}
+			.tip{
+				background-image: url(../img/jinlintu.png);
+				background-repeat: no-repeat;
+				background-position: 0 -296px;
+				display: inline-block;
+				width: 17px;
+				height: 17px;
+				margin-right: 5px;
+				overflow: hidden;
+				vertical-align: -3px;
+			}
+			.mmmbtn{
+				margin-left: 220px;
+				padding:5px 5px;
+			}
+			.pw-strength__letter{
+				height: 20px;
+				line-height: 20px;
+				width: 260px;
+				margin-left: 220px;
+				margin-top: 5px;
+			}
+			.pw-strength__label{
+				display: block;
+				float: left;
+				text-align: center;
+				font-size: 12px;
+				height: 20px;
+				line-height: 20px;
+				width: 85px;
+				background: #f7f7f7;
+				border-right: 1px solid #fff;
+				color: #fff;
+			}
+			.mmmsubmit_btn{
+				display: block;
+				border: #E02025;
+				color: #fff;
+				background: #E02025;
+				font-size: 14px;
+				font-weight: 700;
+				margin-left: 110px;
+				border: 0;
+				width: 200px;
+				height: 35px;
+				cursor: pointer;
+			}
+			.mmmterm{
+				margin-bottom: 30px;
+			}
+			.mmmterm a{
+				color: #ec454a;
+				font-size: 13px;
+				text-decoration: none;
+				margin-left: 225px;
+			}
+			#foot{
+				border-top: 1px solid #eee;
+				padding-top: 20px;
+				text-align: center;
+			}
+			.copyright{
+				font-size: 12px;
+				margin-left: -80px;
+			}
+			.f1{
+				color: #999;
+				padding-right: 5px;
+			}
+			

@@ -40,7 +40,7 @@ class Erjibangdan extends React.Component{
             $("#xq_3 li").eq(0).addClass("active")
         })
     }
-    componentShouldUpdate(){
+    shouldComponentUpdate(){
         return true
     }
     render(){

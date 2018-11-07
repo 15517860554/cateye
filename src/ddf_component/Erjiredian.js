@@ -1,7 +1,8 @@
 import React from 'react';
-//import {BrowserRouter as Router,Route,Link,Redirect,Switch,NavLink} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Link,Redirect,Switch,NavLink} from 'react-router-dom';
 import $ from 'jquery'
-
+import Rdxinwenzixun from './Rdxinwenzixun'
+import './css/Dianying.css'
 class Erjiredian extends React.Component{
     constructor(props){
         super(props)
@@ -12,6 +13,7 @@ class Erjiredian extends React.Component{
     }
     tap1(){
         this.setState({num:"1"})
+        
     }
     tap2(){
         this.setState({num:"2"})
@@ -36,22 +38,26 @@ class Erjiredian extends React.Component{
             $("#xq_3 li").eq(0).addClass("active")
         })
     }
-    componentShouldUpdate(){
+    shouldComponentUpdate(){
         return true
     }
     render(){
         //console.log(this.state.num)
         return(
             <div>
-                {/* 二级导航 */}
-                <div className="erji_nav">
-                    <ul>
-                        <li className="active" onClick={this.tap1.bind(this)}>热点首页<span className="active"></span></li>
-                        <li onClick={this.tap2.bind(this)}>新闻资讯<span></span></li>
-                        <li onClick={this.tap3.bind(this)}>预告片<span></span></li>
-                        <li onClick={this.tap4.bind(this)}>精彩图集<span></span></li>                        
-                    </ul>
-                </div>
+                 
+                {/* 二级导航 */}              
+                    <div>
+                        <div className="erji_nav">
+                            <ul>
+                                <li className="active" onClick={this.tap1.bind(this)}>热点首页<span className="active"></span></li>                                                                     
+                                <li onClick={this.tap2.bind(this)}>新闻资讯<span></span></li>
+                                <li onClick={this.tap3.bind(this)}>预告片<span></span></li>
+                                <li onClick={this.tap4.bind(this)}>精彩图集<span></span></li>                     
+                            </ul>
+                        </div>                      
+                    </div>
+                                  
             </div>
         )
     }
