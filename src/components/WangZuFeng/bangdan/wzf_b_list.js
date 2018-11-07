@@ -70,7 +70,7 @@ class Wzf_b_list extends Component {
     })
     return (
       <div className="Wzf_b_list">
-        <div className='main'>
+        <div className='Wzf_b_main'>
         <p className="update-time">2018-11-05<span className="has-fresh-text">已更新</span></p>
         <p className="board-content">榜单规则：将昨日国内热映的影片，按照评分从高到低排列取前10名，每天上午10点更新。相关数据来源于“猫眼专业版”及“猫眼电影库”。</p>
         <dl>

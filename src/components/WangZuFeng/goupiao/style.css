@@ -12,17 +12,17 @@
     margin: 0;
     font-weight: bold
 }
-.Wzf_d_list .main{
+.Wzf_d_list .Wzf_d_main{
     overflow: hidden;
 }
-.Wzf_d_list .main li{
+.Wzf_d_list .Wzf_d_main li{
     overflow: hidden;
     display: block;
     padding: 20px 0;
     border-bottom: 1px dashed #e5e5e5;
     float: none;
 }
-.Wzf_d_list .main .cinema-info{
+.Wzf_d_list .Wzf_d_main .cinema-info{
     display: inline-block;
     max-width: 80%;
 }

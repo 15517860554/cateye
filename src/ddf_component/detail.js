@@ -130,8 +130,6 @@ class Detail extends React.Component{
 						<p>222<span className="sma">万</span></p>
 					</div>
 				</div>
-				
-				
 				<div className="main">
 					<div className="content">
 						<ul className="con_bar">

@@ -92,7 +92,7 @@ class Wzf_g_list extends Component {
     return (
       <div className="Wzf_d_list">
         <h2 className="title">影院列表</h2>
-        <ul className='main'>
+        <ul className='Wzf_d_main'>
             {jsx}
         </ul>
         <div className='page-bao'>

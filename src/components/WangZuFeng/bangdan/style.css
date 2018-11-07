@@ -2,7 +2,7 @@
     width: 1200px;
     margin: 0 auto;
 }
-.Wzf_b_list .main{
+.Wzf_b_list .Wzf_b_main{
     width: 950px;
     margin: 0 auto;
     margin-top: 70px;
@@ -23,21 +23,21 @@
     color: #999;
     margin-bottom: 20px;
 }
-.Wzf_b_list .main  dd {
+.Wzf_b_list .Wzf_b_main  dd {
     margin-bottom: 30px;
     font-size: 0;
     position: relative;
     overflow: hidden;
 }
-.Wzf_b_list .main .board-index-1{
+.Wzf_b_list .Wzf_b_main .board-index-1{
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAXVBMVEXvQjj////hOTDqPjToPTPtQDbthoHlPDL75OL2xMHnX1jjOjH63dvvlJD++PjyqaXwnZnvmZTmV1DjRT3+9/f99fT51dP3yMX0tbLzr6vrfHboaGLkTETjSD/jRDtUdlqqAAAAmUlEQVRIx+3PNw7EMAxEUY5EZWdvTvc/5gYs4NDQglu9is0HMVQUxX5aUya2ljN/xKaJOqsYPeDHjY02REYFfAT1vbVY1ENi7vHTM6fBSk3yqDqLP9tVaFlI3Bkr0QgJX1fFyZGA61Vi5fk3LBxeJDERCxcnJ08s3A2J1BEzXpEsVZipmWQuYOZhSMYtJsHRBobVxGkqimKPN2KiBE+fgK2MAAAAAElFTkSuQmCC);
     font-size: 0;
 }
-.Wzf_b_list .main  .board-index-3 {
+.Wzf_b_list .Wzf_b_main  .board-index-3 {
     background: #ffb400;
     color: #fff;
 }
-.Wzf_b_list .main  .board-index-2 {
+.Wzf_b_list .Wzf_b_main  .board-index-2 {
     background: #ffb400;
     color: #fff;
 }
