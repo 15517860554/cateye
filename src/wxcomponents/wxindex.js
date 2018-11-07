@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {NavLink} from 'react-router-dom';
+import {NavLink,Link} from 'react-router-dom';
 import 'antd/dist/antd.css';
 import { Button,Carousel } from 'antd';
 import 'antd/lib/button/style';
@@ -103,7 +103,7 @@ export default class wxIndex extends React.Component {
 		})
 		this.state.moveList.list.map((v,i)=>{
 			li_con.push(<li key={i}><img src={img1} /><img className='wx_now_hot_li_zz' src={black_zz} />	<p className = 'wx_move_tit' > < span > {v.name} < /span><span><i>{v.pf/10}</i > < /span></p >
-			<p className = 'wx_buy_p' > 购票 </p></li>)
+			<p className = 'wx_buy_p' > <Link to="/detail"> 购票</Link> </p></li>)
 		})
 		this.state.moveListjj.list.map((v,i)=>{
 			li_con_2.push(<li key={i}><img src={img1} /><img className='wx_jjsy_hot_li_zz' src={black_zz} />	<p className = 'wx_move_tit wx_jjsymove_tit' > < span > {v.name} < /span></p >
