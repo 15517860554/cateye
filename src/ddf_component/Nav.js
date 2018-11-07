@@ -8,6 +8,8 @@ import Erjiredian from './Erjiredian';
 import Yingyuan from './Yingyuan';
 import Shouye from './shouye';
 import img from './img/login.png'
+
+import Detail from './detail'
 class Nav extends React.Component{
     constructor(props){
         super(props)
@@ -155,6 +157,8 @@ class Nav extends React.Component{
                             <Route path="/Yingyuan" component={Yingyuan}></Route>
                             <Route path="/Erjibangdan" component={Erjibangdan}></Route>
                             <Route path="/Erjiredian" component={Erjiredian}></Route>
+                            
+                            <Route path="/detail" component={Detail}></Route>
                             <Redirect to="Shouye"></Redirect>
                         </Switch>
                     </div>
