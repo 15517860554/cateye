@@ -17,7 +17,6 @@ class App extends Component {
 						<Switch>
 							<Route path='/Nav' component={Nav}></Route>
 							<Route path='/login' component={login}></Route>
-							
 							<Route path='/register' component={register}></Route>
 							<Route path='/gpxiangqing' component={wzf_g_xiangqing}></Route>
 							<Redirect to='/Nav' />
