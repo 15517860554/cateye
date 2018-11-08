@@ -71,14 +71,14 @@
     text-overflow: ellipsis;
 }
 
-.banner .wrapper .cinema-brief-container .address, .banner .wrapper .cinema-brief-container .telphone {
+.banner .wrapper .cinema-brief-container .address, .banner .wrapper .cinema-brief-container .telphone1 {
     font-size: 14px;
     margin-bottom: 6px;
 }
-.banner .wrapper .cinema-brief-container .telphone {
+.banner .wrapper .cinema-brief-container .telphone1 {
     margin-bottom: 20px;
 }
-.banner .wrapper .cinema-brief-container .address, .banner .wrapper .cinema-brief-container .telphone {
+.banner .wrapper .cinema-brief-container .address, .banner .wrapper .cinema-brief-container .telphone1 {
     font-size: 14px;
     margin-bottom: 6px;
 }
@@ -148,15 +148,15 @@
 }
 .wzf_lunbo{
     width: 1200px;
-    height: 280px;
+    height: 180px;
     margin: 0 auto;
     margin-top: 120px;
     
 }
+
 .ant-carousel .slick-slide {
     text-align: center;
-    height: 280px;
-    line-height: 280px;
+    height: 180px;
     background: #ededed;
     overflow: hidden;
   }
@@ -164,3 +164,134 @@
   .ant-carousel .slick-slide h3 {
     color: #fff;
   }
+  .wzf_lb_item{
+    margin:25px 15px ;
+    overflow: hidden;
+    float: left;
+ 
+    
+  }
+  .wzf_lb_item img{
+    width: 162px;
+    height: 227px;
+    border: 4px solid #fff;
+  }
+  .wzf_lb_item .img_active{
+    width: 170px;
+    height: 235px;
+    border: 4px solid red;
+
+  }
+   {
+    margin-top: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.show-list .show-date {
+    padding: 30px 0;
+    font-size: 14px;
+    color: #999;
+}
+ .movie-name {
+    display: inline-block;
+    margin: 0 20px 20px 0;
+    font-size: 26px;
+    font-weight: 400;
+    color: #333;
+}
+ .score {
+    display: inline-block;
+    font-size: 24px;
+    color: #faaf00;
+}
+ .sc:after {
+    content: "\5206";
+    font-size: 12px;
+}
+ .movie-desc>div {
+    display: inline-block;
+    font-size: 14px;
+    color: #151515;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+ .movie-desc .key {
+    color: #999;
+}
+ .movie-desc>div {
+    display: inline-block;
+    font-size: 14px;
+    color: #151515;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+.show-list .show-date {
+    padding: 30px 0;
+    font-size: 14px;
+    color: #999;
+}
+.show-list .show-date .date-item.active {
+    color: #fff;
+    background-color: #f03d37;
+}
+.show-list .plist-container.active {
+    display: block;
+}
+.show-list .plist {
+    width: 100%;
+    border: none;
+    border-spacing: 0;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.show-list .plist thead {
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 16px;
+    padding: 18px 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.show-list .plist thead {
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 16px;
+    padding: 18px 0;
+}
+.show-list .plist thead th {
+    padding: 16px 0;
+}
+.show-list .plist tbody tr {
+    height: 82px;
+}
+.show-list .plist tbody .even {
+    background-color: #f9f9f9;
+}
+.show-list .plist tbody td {
+    text-align: center;
+    width: 20%;
+}
+.movie-info{
+    padding-top: 180px;
+}
+.movie-info_bao{
+    width: 1200px;
+    margin: 0 auto;
+
+}

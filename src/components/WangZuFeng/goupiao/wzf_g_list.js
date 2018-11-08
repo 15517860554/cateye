@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 import style from './style.css'
 import $ from 'jquery'
 import { Pagination } from 'antd';
-
+import {withRouter} from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
 var Mock = require('mockjs')
 
 Mock.mock('http://maoyan.api/piao',{
@@ -52,7 +57,15 @@ class Wzf_g_list extends Component {
        foo1(page,pageSize){
          console.log(page,pageSize)
        }
-      
+       xp(a,b){
+         console.log(a,b)
+        //  var data = {id:3,name:a,age:b};
+        // data = JSON.stringify(data);
+        // var path = `/gpxiangqing`;
+        // console.log("")
+        
+         this.props.history.push("/gpxiangqing")
+       }
       componentWillMount(){
         var _this = this
         $.ajax({
@@ -69,6 +82,8 @@ class Wzf_g_list extends Component {
           }
         })
       }
+
+   
   render() {
     var jsx=[]
     this.state.data[this.state.page].map((item,i)=>{
@@ -79,7 +94,9 @@ class Wzf_g_list extends Component {
             <p>地址：{item.diqu}</p>
         </div>
         <div className='buy-btn'>
-            <a href="/">选座购票</a>
+        {/* <Link to="/gpxiangqing">选票购票</Link> */}
+        <a href="/gpxiangqing">选票购票</a>
+        {/* <a onClick={this.xp.bind(this,item.name,item.diqu)}>选票购票</a> */}
         </div>
         <div className='price'>
             <span className='rmb red'>￥ </span>
@@ -104,4 +121,4 @@ class Wzf_g_list extends Component {
   }
 }
 
-export default Wzf_g_list;
+export default  withRouter(Wzf_g_list)
