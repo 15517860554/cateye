@@ -1,0 +1,102 @@
+.wxpay_con{
+	
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 120px;
+}
+.wx_step_sty{
+	width: 1000px;
+	margin: 0 auto;
+}
+.wx_pay_djs{
+	width: 100%;
+	height: 110px;
+	padding-top: 20px;
+	background: #fff3f3;
+	margin: 50px 0;
+}
+.wx_pay_djs div{
+	width: 40px;
+	height: 80px;
+	background: url(../img/djs.png) no-repeat;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.wx_pay_djs p{
+	width: 70%;
+	float: left;
+	
+}
+.wx_pay_djs_djs{
+	font-size: 16px;
+	color: #666;
+	margin: 0;
+}
+.wx_pay_djs_djs span{
+	font-size: 32px;
+	color: #f03d37;
+	margin: 0 8px;
+}
+.wx_pay_djs_tip{
+	font-size: 14px;
+	color:  #f03d37;
+}
+.wx_pay_pric p:nth-of-type(1){
+	background:url(../img/wrnm.png) no-repeat;
+	background-size: 10px;
+	margin-top: 20px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 12px;
+	line-height: 12px;
+}
+.wx_pay_pric table{
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	border: 1px solid #e5e5e5;
+}
+.wx_pay_pric thead{
+	background: #f7f7f7;
+	
+	
+}
+.wx_pay_pric th{
+	height: 40px;
+	padding: 14px 0;
+}
+.wx_pay_pric td{
+	height: 40px;
+	padding: 14px 0;
+}
+.wx_movie_time{
+	color: #f03d37;
+}
+.wx_pay_info p{
+	text-align: right;
+}
+.wx_pay_info p:nth-of-type(1){
+	margin-top: 70px;
+}
+.wx_pay_info p:nth-of-type(1) span{
+	color: #f03d37;
+	font-size: 24px;
+}
+.wx_pay_info p:nth-of-type(1) span b{
+	font-size: 36px;
+	font-weight: 400;
+}
+.wx_pay_info p:nth-of-type(2) button{
+	border:none;
+	width: 190px;
+	height: 42px;
+	border-radius: 20px;
+	color: #FFF;
+	background: #f03d37;
+}
+
+

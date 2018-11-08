@@ -10,6 +10,7 @@ import Shouye from './shouye';
 import img from './img/login.png'
 import Wxshopcart from '../wxcomponents/wxShopcart'
 import Detail from './detail'
+import Wxpay from  '../wxcomponents/wxpay'
 class Nav extends React.Component{
     constructor(props){
         super(props)
@@ -162,8 +163,9 @@ class Nav extends React.Component{
                             <Route path="/Erjiredian" component={Erjiredian}></Route>                            
                             <Route path="/detail" component={Detail}></Route>
 														<Route path='/wxshopcart' component={Wxshopcart}></Route>
-														
-                            <Redirect to="Shouye"></Redirect>
+														<Route path='/wxpay' component={Wxpay}></Route>
+                           <Redirect to="Shouye"></Redirect>
+
 
                         </Switch>
                     </div>

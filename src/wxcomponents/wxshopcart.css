@@ -2,10 +2,14 @@
 	width: 1200px;
 	min-height: 750px;
 	margin: 0 auto;
+	margin-top: 160px;
 }
 .wx_xset{
+	width: 1200px;
+	margin: 0 auto;
 	border: 1px solid #E5E5E5;
 	overflow: hidden;
+	margin-top: 50px;
 }
 .wx_set{
 	width: 100%;
@@ -14,6 +18,7 @@
 .wx_set_li{
 	width: 820px;
 	float: left;
+	padding-left: 20px;
 }
 .wx_set_li span{
 	display: inline-block;
@@ -86,4 +91,80 @@
 	width: 150px;
 	float: left;
 	padding-left: 20px;
+}
+.ant-steps{
+	width: 800px;
+}
+
+.wx_movie_info_tit{
+	font-weight: 800;
+	font-size: 18px;
+}
+.wx_movie_info{
+	color: #999;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.wx_movie_info p{
+	margin: 0;
+	margin-bottom: 9px;
+}
+.wx_movie_info p span{
+	color: #151515;
+	margin-left: 10px;
+}
+.wx_movie_info p .wx_movie_info_time{
+	color: #f03d37;
+}
+.wx_seat_info{
+	border-top: 1px #e5e5e5 dashed;
+	border-bottom: 1px #e5e5e5 dashed;
+	padding: 20px 0 10px;
+}
+.wx_movie_info .wx_seat_info p:nth-of-type(1) span{
+	color: #f03d37;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	background: url(../img/pp.png) no-repeat;
+	font-size: 12px;
+}
+.wx_alert{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.wx_seat_info .Total_pri{
+	color: #f03d37;
+	
+}
+.wx_seat_info .Total_pri b{
+	font-size: 24px;
+	font-weight: 400;
+	margin-left: 5px;
+}
+.wx_set_li .wx_seat_selected{
+	background: url(../img/wx_yx.png) no-repeat;
+}
+.goumai{
+	padding-top: 20px;
+	text-align: center;
+}
+.goumai button{
+	width: 260px;
+	height: 42px;
+	border: none;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 40px;
 }
